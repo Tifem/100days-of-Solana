@@ -7,7 +7,7 @@ const wallet = await generateKeyPairSigner();
 console.log(wallet)
 
 // const { value: balance } = await rpc.getBalance(address(“YOUR_ADDRESS_HERE”)).send();
-const { value: balance } = await rpc.getBalance("BqSUYSRox7BuUpNZknuoupXfTR92epr2XaMhu7MpFdfk").send();
+const { value: balance } = await rpc.getBalance("8L8rWa9nBPuHg6VmdVQYjB84Xnk7zYeagdEwkMcHuFdY").send();
 const balanceInSol = Number(balance) / 1_000_000_000;
 
 console.log(`Balance: ${ balanceInSol } SOL`);
